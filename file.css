@@ -1,0 +1,264 @@
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 84vh;
+    margin-top: 20px;
+}
+
+.header {
+    position: relative;
+    background-color: #bfa179;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header h1 {
+    color: white;
+    font-size: 24px;
+    margin: -5px;
+    padding: 0;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.header-icons {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.header-icons a {
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.header h1 {
+    color: white;
+    font-size: 24px;
+    margin: -5px;
+    padding: 0;
+    font-weight: 400;
+    display: inline-block;
+}
+
+
+h1 {
+    font-family: 'Gloock', 'Gloock Placeholder', serif;
+    font-size: 80px;
+    color: #333333;
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-bottom: 30px; /* Adjusted margin-top value */
+}
+
+.api-key-input {
+    padding: 2px 15px;
+    border: 2px solid #1c1b1b;
+    border-radius: 5px;
+    font-family: 'Martian Mono', monospace;
+    font-size: 14px;
+  }
+
+  .submit-button {
+    display: inline-block;
+    padding: 2px 20px;
+    background-color: #1c1b1b;
+    color: white;
+    font-family: 'Martian Mono', monospace;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: 2px solid #1c1b1b;
+  }
+
+.submit-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1c1b1b;
+    color: white;
+    font-family: 'Martian Mono', monospace;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: 2px solid #1c1b1b;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #bfa179;
+    color: black;
+    font-family: 'Martian Mono', monospace;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: 2px solid #bfa179;
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+}
+
+.button:hover {
+    background-color: #bfa179;
+    color: white;
+}
+
+.loading-animation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .loading-animation i {
+    font-size: 38px;
+    color: #bfa179;
+  }
+
+  .loading-animation span {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #333333;
+  }
+
+.copy-button-container {
+    display: flex;
+  justify-content: center;
+}
+
+.copy-button {
+    display: inline-block;
+    padding: 5px 8px;
+    background-color: #1c1b1b;
+    color: white;
+    font-family: 'Martian Mono', monospace;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: 2px solid #1c1b1b;
+  }
+
+  .copy-button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .copy-button:active {
+    background-color: #876845;
+  }
+
+
+.output-box {
+    background-color: #f3f3f3;
+    margin-top: 20px;
+    width: 600px;
+    height: 400px;
+    overflow: auto;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.section {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-title1,
+.section-title2,
+.section-title3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333333;
+    font-family: 'Gloock', 'Gloock Placeholder';
+    margin-bottom: 20px;
+}
+
+.section-description,
+.faq-subtitle {
+    font-size: 16px;
+    color: #666666;
+    font-family: 'Martian Mono', monospace;
+    line-height: 1.5;
+}
+
+.faq-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+    font-family: 'Gloock', 'Gloock Placeholder';
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.scroll-up-button {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Gloock', 'Gloock Placeholder';
+    position: relative;
+    z-index: 1;
+}
+
+.scroll-up-button .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1c1b1b;
+    color: white;
+    font-family: 'Martian Mono', monospace;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: 2px solid #1c1b1b;
+}
+
+.scroll-up-button .button:hover {
+    background-color: #bfa179;
+    color: white;
+}

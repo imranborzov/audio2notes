@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Audio2Notes</title>
+    <link rel="icon" href="assets/pngwing.com.png" type"image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Martian+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="file.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <div id="api-key-container" class="input-container">
+          <input type="text" id="apiKeyInput" class="api-key-input" placeholder="Enter your API key">
+          <button onclick="setApiKey()" class="submit-button">Submit</button>
+        </div>
+        <div class="header-icons">
+          <a href="https://github.com/imranborzov" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://twitter.com/iborzovvv" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://discordapp.com/users/borzovvv#8959" target="_blank"><i class="fab fa-discord"></i></a>
+          <a href="https://instagram.com/borzovvv " target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+
+
+
+    <div class="container">
+
+        <h1>Turn Your Audio Into Notes</h1>
+
+        <input type="file" id="fileInput" style="display: none;">
+
+        <div class="button-container">
+            <button id="uploadButton" class="button">
+                Upload your audio
+            </button>
+            <button id="learnMoreButton" class="button1">Learn more</button>
+        </div>
+
+        <div class="output-box" id="outputBox">Upload your file and the text will appear over here!</div>
+    </div>
+
+    <div class="copy-button-container">
+        <button id="copyButton" class="copy-button">Copy Text</button>
+    </div>
+
+    <div class="section" id="convertSection">
+        <h2 class="section-title3">Organize your notes</h2>
+        <p class="section-description">Our Audio to Notes Converter makes it incredibly simple and efficient to convert audio files into structured notes. Save time and energy by using it!</p>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title2">Convert Audio Files Effortlessly</h2>
+        <p class="section-description">No more tedious transcription! Upload your audio file, and we’ll transform it into organized notes. It’s that simple!</p>
+    </div>
+
+    <div class="section faq">
+        <h2 class="section-title3">Questions You Might Have</h2>
+        <div class="faq-item">
+            <h3 class="faq-title">What audio formats are supported?</h3>
+            <p class="faq-subtitle">We support popular audio formats such as MP3, WAV, M4A, WEBM, MP4, and MPGA.</p>
+        </div>
+        <div class="faq-item">
+            <h3 class="faq-title">How quickly will I get my transcription?</h3>
+            <p class="faq-subtitle">Most transcriptions are completed within minutes, depending on the length and complexity of the audio.</p>
+        </div>
+        <div class="faq-item">
+            <h3 class="faq-title">What is the maximum file size?</h3>
+            <p class="faq-subtitle">The file size limit is 25 MB.</p>
+        </div>
+    </div>
+
+    <div class="scroll-up-button">
+        <button id="scrollToTopButton" class="button">Get started!</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
