@@ -151,7 +151,7 @@ document.getElementById("fileInput").addEventListener("change", function() {
           });
       } else {
         console.error("Error: No transcription data found.");
-        outputBox.innerHTML = 'Oops! Something went wrong. Please check if the API key is correct and if the audio file is compatible (MP3, WAV, M4A, WEBM, MP4, MPGA).';
+        outputBox.innerHTML = 'Oops! Something went wrong. Please check if the API key is correct and if the audio file is compatible (MP3, WAV, M4A, WEBM, MP4, MPGA) and does not exceed 25 MB.';
       }
     })
     .catch(error => {
